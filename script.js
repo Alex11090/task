@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Next button
         const nextButton = document.createElement('button');
-        nextButton.innerHTML = '<img src="images/_@1x (1).png"/>';
+        nextButton.innerHTML = '<img src="images/r.png"/>';
         nextButton.addEventListener('click', () => {
             if (currentPage < pageCount) {
                 currentPage++;
