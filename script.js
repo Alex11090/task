@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Previous button
         const prevButton = document.createElement('button');
-        prevButton.innerHTML = '<img src="images/_@1x.png"/>';
+        prevButton.innerHTML = '<img src="images/l.png"/>';
         prevButton.addEventListener('click', () => {
             if (currentPage > 1) {
                 currentPage--;
