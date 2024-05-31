@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CRM Dashboard</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <aside class="sidebar">
+                    <div>
+                        <div class="sidebar__header">
+                            <img src="images/CRM Dashboard Customers/dash.png" alt="Dashboard Icon" class="sidebar__header-icon">
+                            <h2 class="sidebar__title">Dashboard</h2>
+                            <p class="sidebar__version">v.01</p>
+                        </div>
+                        <div class="sidebar__menu">
+                            <div class="sidebar__item">
+                                <img src="images/icon _ 24 _ outline _ key-square@1x.png" alt="Dashboard Icon" class="sidebar__item-icon">
+                                <p class="sidebar__item-text">Dashboard</p>
+                            </div>
+                            <div class="sidebar__item">
+                                <img src="images/3d-square 1@1x.png" alt="Dashboard Icon" class="sidebar__item-icon">
+                                <p class="sidebar__item-text">Product</p>
+                                <span class="sidebar__item-arrow">></span>
+                            </div>
+                            <div class="sidebar__item sidebar__item--active">
+                                <img src="images/user-square 1@1x.png" alt="Dashboard Icon" class="sidebar__item-icon">
+                                <p class="sidebar__item-text">Customers</p>
+                                <span class="sidebar__item-arrow">></span>
+                            </div>
+                            <div class="sidebar__item">
+                                <img src="images/wallet-money 2@1x.png" alt="Dashboard Icon" class="sidebar__item-icon">
+                                <p class="sidebar__item-text">Income</p>
+                                <span class="sidebar__item-arrow">></span>
+                            </div>
+                            <div class="sidebar__item">
+                                <img src="images/discount-shape 1@1x.png" alt="Dashboard Icon" class="sidebar__item-icon">
+                                <p class="sidebar__item-text">Promote</p>
+                                <span class="sidebar__item-arrow">></span>
+                            </div>
+                            <div class="sidebar__item">
+                                <img src="images/message-question 1@1x.png" alt="Dashboard Icon" class="sidebar__item-icon">
+                                <p class="sidebar__item-text">Help</p>
+                                <span class="sidebar__item-arrow">></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar__footer">
+                        <img class="sidebar__footer-photo" src="images/Ellipse 8@1x.png" alt="Project Manager">
+                        <div>
+                            <span class="sidebar__footer-evano">Evano</span>
+                            <span class="sidebar__footer-manager">Project Manager</span>
+                        </div>
+                    </div>
+                </aside>
+                <div class="section section--main">
+                    <h3 class="section__title">Hello Evano 👋🏼,</h3>
+                    <main class="main-content">
+                        <header class="header">
+                            <div class="header__title">
+                                <h3>All Customers</h3>
+                                <span>Active Members</span>
+                            </div>
+                            <div class="search-bar">
+                                <input
+                                    type="text"
+                                    id="search"
+                                    class="search-bar__input"
+                                    placeholder="Search"
+                                >
+                            </div>
+                        </header>
+                        <section class="customers-table">
+                            <table class="customers-table__table">
+                                <thead>
+                                    <tr class="customers-table__header-row">
+                                        <th class="customers-table__header-cell">Customer Name</th>
+                                        <th class="customers-table__header-cell">Company</th>
+                                        <th class="customers-table__header-cell">Phone Number</th>
+                                        <th class="customers-table__header-cell">Email</th>
+                                        <th class="customers-table__header-cell">Country</th>
+                                        <th class="customers-table__header-cell">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="customers-table__body"></tbody>
+                            </table>
+                            <div class="pagination"></div>
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

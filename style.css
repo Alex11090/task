@@ -1,0 +1,274 @@
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    /* display: flex; */
+}
+
+/* Container for the layout */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(250, 251, 255);
+}
+
+.wrapper {
+    display: flex;
+}
+
+.section__title {
+    /* Hello Evano 👋🏼, */
+    width: 176px;
+    height: 36px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 41px 0 70px 0;
+}
+
+/* Sidebar styles */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 306px;
+    /* height: 100vh; */
+    box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+    background: rgb(255, 255, 255);
+}
+
+.sidebar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 195px;
+    height: 39px;
+    margin: 39px 83px 54px 28px;
+}
+
+.sidebar__version {
+    font-size: 10px;
+    margin: 8px 0 0 4px;
+}
+
+.sidebar__header-icon {
+    position: relative;
+    width: 37px;
+    height: 37px;
+}
+
+.sidebar__title {
+    width: 150px;
+    height: 39px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.sidebar__menu {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+.sidebar__item {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    width: 250px;
+    height: 46px;
+    margin: 8px auto;
+    padding: 0 7px;
+}
+
+.sidebar__item-icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.sidebar__item-text {
+    position: relative;
+    padding-right: 20px;
+    width: 60px;
+    height: 21px;
+    color: rgb(145, 151, 179);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -1%;
+    text-align: left;
+}
+
+.sidebar__item-arrow {
+    margin-left: auto;
+    font-size: 1.2em;
+}
+
+
+
+.sidebar__item--active {
+    background-color: rgb(89, 50, 234);
+    color: white;
+}
+
+.sidebar__item--active .sidebar__item-text {
+
+    color: white;
+}
+
+.sidebar__footer {
+    display: flex;
+}
+
+.sidebar__footer-photo {
+    width: 42px;
+    height: 42px;
+    margin-right: 12px;
+    margin-left: 28px;
+    margin-bottom: 76px;
+}
+
+.sidebar__footer-evano {
+    display: block;
+    width: 44px;
+    height: 21px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebar__footer-manager {
+    width: 101px;
+    height: 18px;
+    color: rgb(117, 117, 117);
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1%;
+}
+
+.active {
+    background-color: rgb(89, 50, 234);
+    color: white;
+}
+
+.pagination {
+    text-align: right;
+    margin-top: 21px;
+    margin-right: 16px;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    margin-left: 7px;
+}
+
+.section--main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.main-content {
+    border-radius: 30px;
+    width: 840px;
+    height: 500px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 120px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header span {
+    color: rgb(60, 202, 169);
+}
+
+.header__title h3 {
+    margin: 0;
+}
+
+.search-bar {}
+
+.search-bar__input {
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: rgb(250, 251, 255);
+    color: rgb(184, 186, 194);
+}
+
+input::placeholder {
+    color: rgb(184, 186, 194);
+}
+
+input::-webkit-input-placeholder {
+    color: rgb(184, 186, 194);
+}
+
+input:-moz-placeholder {
+    color: rgb(184, 186, 194);
+}
+
+input::-moz-placeholder {
+    color: rgb(184, 186, 194);
+}
+
+input:-ms-input-placeholder {
+    color: rgb(184, 186, 194);
+}
+
+.customers-table__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.customers-table__header-row {
+    color: rgb(184, 186, 194);
+}
+
+.customers-table__header-cell {
+    color: rgb(181, 183, 192);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    padding-left: 6px;
+}
+
+.customers-table__cell {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+    color: rgb(41, 45, 50);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -1%;
+}
+
+.customers-table__body .customers-table__row:nth-child(even) {
+    background-color: #f2f2f2;
+}
